@@ -1,0 +1,8 @@
+[requires]
+pybind11/2.13.6
+gtest/1.15.0
+
+
+[generators]
+CMakeToolchain
+CMakeDeps
