@@ -16,6 +16,7 @@ set(CMAKE_CUDA_ARCHITECTURES 75)
 
 # demo
 file(GLOB DEMO "src/demo/*")
+file(GLOB SRC_FILES "src/*.cpp" "src/**/*.cpp")
 
 include_directories(include)
 
